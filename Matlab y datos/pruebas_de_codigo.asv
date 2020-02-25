@@ -1,0 +1,10 @@
+clc
+close all
+clear all
+
+prompt = {'Enter matrix size:','Enter colormap name:'};
+dlgtitle = 'introduzca el puerto COM';
+dims = [1 50];
+definput = {'20','hsv'};
+id = inputdlg('Ejemplo: COM17',dlgtitle,dims,definput);
+ID = string()
